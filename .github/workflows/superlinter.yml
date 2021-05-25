@@ -23,5 +23,4 @@ jobs:
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Eslint
-      run: make lint
+      - run: make lint
