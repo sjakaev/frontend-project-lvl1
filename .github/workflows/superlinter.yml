@@ -24,5 +24,4 @@ jobs:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: npx eslint
-      run: |
-        make lint
+      run: make lint
